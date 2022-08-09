@@ -1,0 +1,79 @@
+/*we start by giving a generic styling to our web page before furthering into specific
+and classes.*/
+body {
+	font-family: 'pt sans', sans-serif;
+	background-color: #252529;
+	color: #000;
+	line-height: 1.6;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ccc;
+}
+
+#W3b {
+	margin: 0;
+	padding: 0;
+	background: url("w3b_bg.jpeg") no-repeat center/cover;
+	width: 100%;
+	height: 100vh; /*vh = viewport height */
+	position: relative;
+	overflow: hidden;
+}
+
+/*styling the navigation bar.*/
+nav {
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	color: rgb(51,34,34);
+	position: fixed; /*(to fix the nav bar to the top of the screen)*/
+}
+
+.logo {
+  width: 30%;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+
+nav a {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color: #eee;
+}
+
+nav li:hover {
+	background-color: #444;
+}
+
+.main-section {
+	margin-top: 10vh;
+  padding: 5%;
+
+}
+
+.desc_note{
+  width: 80%;
+}
+.socials {
+  color: #3B9AE1;
+  margin-top: 5rem;
+  width: 3rem;
+}
+.socials:hover{
+  color: navy;
+}
+.icon_div {
+  margin-top: 12%;
+}
